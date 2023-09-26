@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER SECTION */
+
+.header{
+    background-color:rgb(211, 214, 211);
+}
+.header-rap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 0 auto;
+}
+.header-left h3{
+    color: #5acbd3;
+    margin-left: 35px;
+    font-size: 25px;
+}
+.menu{
+    display:  flex;
+    align-items: center;
+}
+.nav ul li {
+    list-style-type: none;
+    display:inline-block ;
+    margin: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header-btn{
+    background-color: #1fe1ee;
+    padding: 26px 30px;
+    margin-left: 30px;
+}
+.header-btn a{
+    text-decoration: none;
+    color: white;
+}
+.fa-solid{
+    margin-left: 10px;
+}
+
+/* BANNER SECTION  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: linear-gradient(0deg, rgba(53, 53, 55, 0.7),rgba(53, 53, 55, 0.7) ), url(../img/carousel-2.jpg);
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner-rap{
+    text-align: left;
+    width: 880px;
+    height: 352px;
+    margin-left: -332px;
+}
+.banner-content{
+    line-height: 50px;
+    text-align: left;
+}
+.banner-content h5{
+    font-size: 20px;
+    margin: 0px 0px 16px;
+}
+.banner-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    margin: 0px 0px 8px;
+}
+.banner-content p{
+    font-size: 20px;
+}
+.banner-btns{
+    display: flex;
+    padding-top: 30px;
+    text-align: right;
+}
+.banner-btns a{
+    text-decoration: none;
+    color: white;
+    
+}
+.red-btn a{
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    background: #62d0f2;
+    padding: 16px 48px;
+    margin-left: 0px;
+}
+.Join-btn a{
+    margin-left: 30px;
+    color: black;
+    background: #fffefe;
+    padding: 16px 48px;
+}
+
+/* SERVICES SECTION */
+
+.service{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.service-rap{
+    display: flex;
+}
+
+.single-service{
+    text-align: center;
+    line-height: 50px;
+    width:336px;
+    height:224px;
+    padding: 24px;
+    margin-left: 50px;
+    background-color: #c5d9dae6;
+}
+.single-service .icon{
+    font-size: 50px;
+}
