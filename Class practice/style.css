@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+body{
+    font-family: 'Heebo', sans-serif;
+
+}
+
+.header{
+    width: 1903px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-header{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    height: 75px;
+}
+.header-logo h2 {
+    margin: 0px 16px 0px 0px;
+    padding: 5px 48px;
+    font-size: 32px;
+    width: 305.23px;
+    align-items: center;
+    color: #06bbcc;
+}
+i.fa-solid {
+    margin-right: 10px;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    list-style-type: none;
+}
+.menu ul li a{
+    font-size: 15px;
+    margin: 0px 30px 0px 0px;
+    padding: 25px 0px;
+    text-decoration: none;
+    color: black;
+}
+.heder-btn a{
+    text-decoration: none;
+    width: 194.11px;
+    height: 75px;
+    font-size: 16px;
+    background: #06bbcc;
+    padding: 25px 48px;
+
+}
+
+
+.banner{
+    background: linear-gradient(0deg, rgba(53, 53, 55, 0.7),rgba(53, 53, 55, 0.7) ), url(../img/carousel-2.jpg);
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner-rap{
+    text-align: left;
+    width: 880px;
+    height: 352px;
+    margin-left: -332px;
+}
+.banner-content{
+    line-height: 50px;
+    text-align: left;
+}
+.banner-content h5{
+    font-size: 20px;
+    margin: 0px 0px 16px;
+}
+.banner-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    margin: 0px 0px 8px;
+}
+.banner-content p{
+    font-size: 20px;
+}
+.banner-btns{
+    display: flex;
+    padding-top: 30px;
+    text-align: right;
+}
+.banner-btns a{
+    text-decoration: none;
+    color: white;
+    
+}
+.red-btn a{
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    background: #62d0f2;
+    padding: 16px 48px;
+    margin-left: 0px;
+}
+.Join-btn a{
+    margin-left: 30px;
+    color: black;
+    background: #fffefe;
+    padding: 16px 48px;
+}
+
+/* SERVICES SECTION */
+
+.service{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.service-rap{
+    display: flex;
+}
+
+.single-service{
+    text-align: center;
+    line-height: 50px;
+    width:336px;
+    height:224px;
+    padding: 24px;
+    margin-left: 50px;
+    background-color: #c5d9dae6;
+}
+.single-service .icon{
+    font-size: 50px;
+}
+.single-service:hover{
+    margin-top: -10px;
+    background: #329ca8;
+    color: white;
+    transition: .4s;
+}
